@@ -66,7 +66,7 @@ def frequency_of_characters(textFile):
 
     print("\n---------------------------------")
     # Statstical informations
-    print(f"Total number of lines: {len(lines)}")
+    print(f"Total number of lines : {len(lines)}")
     print(f"Total number of words: {len(words)}")
     print(f"Total number of characters: {len(textFile)}")
     print("----------------------------------------")
