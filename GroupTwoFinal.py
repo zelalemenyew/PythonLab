@@ -39,11 +39,14 @@ def frequency_of_characters(textFile):
     sorted_chars = sorted(char_counts.items(), key=lambda x: x[1], reverse=True)
     for i in range(5):
         print(f"{sorted_chars[i][0]}: {sorted_chars[i][1]}")
+        
+        
+        
+    def fileReader():
+        with open("textFile.txt", "r", encoding='utf-8') as f:
+            textFile = f.read()
+        textFile = punctuationRemover(textFile)
 
-def fileReader():
-    with open("textFile.txt", "r", encoding='utf-8') as f:
-        textFile = f.read()
-    textFile = punctuationRemover(textFile)
     
     lines = textFile.split("\n")
     words = textFile.split()
