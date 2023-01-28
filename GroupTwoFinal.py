@@ -41,34 +41,4 @@ def frequency_of_characters(textFile):
         print(f"{sorted_chars[i][0]}: {sorted_chars[i][1]}")
         
         
-        
-    def fileReader():
-        with open("textFile.txt", "r", encoding='utf-8') as f:
-            textFile = f.read()
-        textFile = punctuationRemover(textFile)
 
-    
-    lines = textFile.split("\n")
-    words = textFile.split()
-
-    print("---------------------------------")
-    print("Words Founded in the textFile : ")
-    wordFinder(textFile)
-
-    print("\n\n--------------------------------------")
-    print("Word frequency in decreasing order")
-    frequency_of_words(textFile)
-
-    print("\n\n----------------------------------------")
-    # Finding character frequency
-    print("Five Most Frequently Occurred characters:")
-    frequency_of_characters(textFile)
-
-    print("\n---------------------------------")
-    # Statstical informations
-    print(f"Total number of lines : {len(lines)}")
-    print(f"Total number of words: {len(words)}")
-    print(f"Total number of characters: {len(textFile)}")
-    print("----------------------------------------")
-
-fileReader()
