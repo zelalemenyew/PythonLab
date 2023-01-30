@@ -1,0 +1,12 @@
+Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.
+It was created by Guido van Rossum during. Like Perl, Python source code is also available under the GNU General Public License (GPL).
+Python is named after a TV Show called �Monty Python�s Flying Circus� and not after Python the snake. 
+Python was released in 2007.
+Although this version is supposed to be backward incompatibles, later on many of its important features have been backported to be compatible with the version.
+This tutorial gives enough understanding on Python  version programming language.
+Please refer to this link for our Python  tutorial. 
+All the content and graphics published in this e-book are the property of Tutorials Point (I) Pvt. Ltd.
+The user of this e-book is prohibited to reuse, retain, copy, distribute or republish any contents or a part of contents of this e-book in any manner without written consent of the publisher.   
+We strive to update the contents of our website and tutorials as timely and as precisely as possible, however, the contents may contain inaccuracies or errors. 
+Tutorials Point (I) Pvt. Ltd. provides no guarantee regarding the accuracy, timeliness or completeness of our website or its contents including this tutorial. 
+If you discover any errors on our website or in this tutorial, please notify us at contact@tutorialspoint.com 
